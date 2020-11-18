@@ -25,4 +25,4 @@ Specifically, customer segmentation helps company: identify ways to improve prod
 ## Correlation between Variables
 ![correlation](https://user-images.githubusercontent.com/32566240/99599371-86cc5400-29fb-11eb-98c9-5fab1f628ac8.png)
 
-From this heatmap we see that Age and Education, Income and Occupation has strong positive correlation Age and Marital status has negative correlation
+From this heatmap we see that Age and Education, Income and Occupation has strong positive correlation where Age and Marital status has negative correlation.
