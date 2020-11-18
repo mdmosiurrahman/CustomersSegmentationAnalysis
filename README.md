@@ -25,13 +25,13 @@ The dataset consists of information about the purchasing behavior of 2,000 indiv
 										
 Variable	Data type	Range	Description
 ---------------------------------------------------------------------------------------------------------------
-ID	       numerical	Integer	     Shows a unique identificator of a customer.							
+ID ----      numerical	Integer	     Shows a unique identificator of a customer.							
 										
-Sex	     categorical	{0,1}	     Biological sex (gender) of a customer. In this dataset there are only 2 different options.							
+Sex ----	     categorical	{0,1}	     Biological sex (gender) of a customer. In this dataset there are only 2 different options.							
 		                         0	male							
 		                         1	female							
 										
-Marital status	categorical	{0,1}	     Marital status of a customer.							
+Marital status---	categorical	{0,1}	     Marital status of a customer.							
 		                         0      single							
 		                         1	non-single (divorced / separated / married / widowed)							
 										
