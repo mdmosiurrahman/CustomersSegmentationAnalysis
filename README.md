@@ -35,10 +35,10 @@ In this section, we standardize our data, so that all features have equal weight
 
 ## Model Used
 In our project, we have used 3 Model for implementation which is 
-                  1.Hierarchical Clustering
-		  2.K-means Clustering
-		  3.PCA-Principale Component Analysis
+                  * Hierarchical Clustering
+		  * K-means Clustering
+		  * PCA-Principale Component Analysis
 ## Model Results
-1.Hierarchical Clustering
-2.K-means Clustering
-3.PCA-Principale Component Analysis
+* Hierarchical Clustering
+* K-means Clustering
+* PCA-Principale Component Analysis
