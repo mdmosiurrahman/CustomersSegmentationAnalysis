@@ -44,4 +44,7 @@ In our project, we have used 3 Model for implementation which is
 ![Hierarchical](https://user-images.githubusercontent.com/32566240/99999821-032ab280-2dc1-11eb-8b57-0838d14e5aab.png)
 
 * K-means Clustering
+
+![K-means](https://user-images.githubusercontent.com/32566240/100001770-e93e9f00-2dc3-11eb-8b0b-8b8971563638.png)
+
 * PCA-Principale Component Analysis
