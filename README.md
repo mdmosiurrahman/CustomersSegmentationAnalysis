@@ -7,6 +7,7 @@ Customer Segmentation Analysis project
 * Goal
 * Dataset
 * Correlation between Variables
+* Standardization Data
 * Model Used
 * Model Results
 
@@ -17,7 +18,7 @@ A customer’s segmentations model allows for the effective allocation of market
 Python
 
 ## Goal
-Specifically, customer segmentation helps company: identify ways to improve products or new products or services opportunities. It is your key to better understanding your audience or customers
+Specifically, customer segmentation helps company: identify ways to improve products or new products or services opportunities. It is your key to better understanding your audience or customers. The Main goal of this project is to find customer segments based on all these information get from our data.
 
 ## DataSet
 The dataset consists of information about the purchasing behavior of 2,000 individuals from a given area when entering a physical ‘FMCG’ store. All data has been collected through the loyalty cards they use at checkout. The data has been preprocessed and there are no missing values. 
@@ -28,3 +29,16 @@ The dataset consists of information about the purchasing behavior of 2,000 indiv
 ![correlation](https://user-images.githubusercontent.com/32566240/99599371-86cc5400-29fb-11eb-98c9-5fab1f628ac8.png)
 
 From this heatmap we see that Age and Education, Income and Occupation has strong positive correlation where Age and Marital status has negative correlation.
+
+## Standardization Data
+In this section, we standardize our data, so that all features have equal weight. This is important for modelling. Otherwise , innour case Income would be considered much more important than Education for instance.We do not know if this the case ,so we would not like to introduce it to our model.This is what is also refered to as bias.
+
+## Model Used
+In our project, we have used 3 Model for implementation which is 
+                  1.Hierarchical Clustering
+		  2.K-means Clustering
+		  3.PCA-Principale Component Analysis
+## Model Results
+1.Hierarchical Clustering
+2.K-means Clustering
+3.PCA-Principale Component Analysis
