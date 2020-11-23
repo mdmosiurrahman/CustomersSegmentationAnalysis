@@ -40,5 +40,6 @@ In our project, we have used 3 Model for implementation which is
 		  3. PCA-Principale Component Analysis
 ## Model Results
 * Hierarchical Clustering
+![Hierarchical](https://user-images.githubusercontent.com/32566240/99999821-032ab280-2dc1-11eb-8b57-0838d14e5aab.png)
 * K-means Clustering
 * PCA-Principale Component Analysis
