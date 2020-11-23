@@ -34,10 +34,10 @@ From this heatmap we see that Age and Education, Income and Occupation has stron
 In this section, we standardize our data, so that all features have equal weight. This is important for modelling. Otherwise , innour case Income would be considered much more important than Education for instance.We do not know if this the case ,so we would not like to introduce it to our model.This is what is also refered to as bias.
 
 ## Model Used
-In our project, we have used 3 Model for implementation. 
-                  * Hierarchical Clustering
-		  * K-means Clustering
-		  * PCA-Principale Component Analysis
+In our project, we have used 3 Model for implementation which is 
+                  1. Hierarchical Clustering
+		  2. K-means Clustering
+		  3. PCA-Principale Component Analysis
 ## Model Results
 * Hierarchical Clustering
 * K-means Clustering
