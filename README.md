@@ -48,3 +48,5 @@ In our project, we have used 3 Model for implementation which is
 ![K-means](https://user-images.githubusercontent.com/32566240/100001770-e93e9f00-2dc3-11eb-8b0b-8b8971563638.png)
 
 * PCA-Principale Component Analysis
+
+![PCA](https://user-images.githubusercontent.com/32566240/100001939-299e1d00-2dc4-11eb-8ea5-0c91fba06dff.png)
