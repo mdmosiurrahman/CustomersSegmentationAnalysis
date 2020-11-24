@@ -42,7 +42,19 @@ In our project, we have used 3 Model for implementation which is
 * Hierarchical Clustering
 
 ![Hierarchical](https://user-images.githubusercontent.com/32566240/99999821-032ab280-2dc1-11eb-8b57-0838d14e5aab.png)
-
+We plot the results from hierarchical clustering using Dendrogram. We truncate the dendrogram for better readability.
+plt.figure(figsize = (12,9))
+plt.title('Hierarchical Clustering Dendrogram')
+plt.xlabel('Observations')
+plt.ylabel('Distance')
+dendrogram(hier_clust,
+           truncate_mode = 'level',
+           p = 5,
+           show_leaf_counts = False,
+           no_labels = True,
+          )
+plt.show()
+The level p shpws only the last p merged clusters.we also omit showing the labels for each point.
 * K-means Clustering
 
 ![K-means](https://user-images.githubusercontent.com/32566240/100001770-e93e9f00-2dc3-11eb-8b0b-8b8971563638.png)
