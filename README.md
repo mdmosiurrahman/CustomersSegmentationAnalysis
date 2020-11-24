@@ -43,22 +43,29 @@ In our project, we have used 3 Model for implementation which is
 
 ![Hierarchical](https://user-images.githubusercontent.com/32566240/99999821-032ab280-2dc1-11eb-8b57-0838d14e5aab.png)
 We plot the results from hierarchical clustering using Dendrogram. We truncate the dendrogram for better readability.
-plt.figure(figsize = (12,9))
-plt.title('Hierarchical Clustering Dendrogram')
-plt.xlabel('Observations')
-plt.ylabel('Distance')
-dendrogram(hier_clust,
-           truncate_mode = 'level',
-           p = 5,
-           show_leaf_counts = False,
-           no_labels = True,
-          )
-plt.show()
-The level p shpws only the last p merged clusters.we also omit showing the labels for each point.
+It visualize 4 clustering of customers purchasing behaviour data which represnt 4 color in the x-axis. 
 * K-means Clustering
 
 ![K-means](https://user-images.githubusercontent.com/32566240/100001770-e93e9f00-2dc3-11eb-8b0b-8b8971563638.png)
 
+In our K-means clustering, we got total 4 segment of customers purchasing behaviour which indicate Segment 0 to segment 3. we add the segment labels to our table as 0:'well-off' , 1:'fewer oppertunities' , 2:'standard' and 3:'career focused.
+
+Segment 0: It is composed man and women almost equally which average age is 56 and more than two-third of customers are in relationship, and they have the highest level of education as well as high income.
+
+Segment 1: Two-third of the customers are male and almost all are single. Their education and income are low compare to other segments.
+
+Segment 2: Most of the customers are young (average age 28 years) in this segment.
+
+Segment 3: Most of the customers has good income, and they are from mid/big cities.
+
 * PCA-Principale Component Analysis
 
 ![PCA](https://user-images.githubusercontent.com/32566240/100001939-299e1d00-2dc4-11eb-8ea5-0c91fba06dff.png)
+ In our project we have used 3 model but Principale component analysis produced best result comapre to other two model. In PCA data is distance is very close to one data point another data point. We can describe our each cluster below:
+ Well-off: It is composed man and women almost equally which average age is 56 and more than two-third of customers are in relationship, and they have the highest level of education as well as high income.
+
+Standard: Two-third of the customers are male and almost all are single. Their education and income are low compare to other segments.
+
+Fewer opportunities: Most of the customers are young (average age 28 years) in this segment.
+
+Career focused: Most of the customers has good income, occupation, and they are from mid/big cities
